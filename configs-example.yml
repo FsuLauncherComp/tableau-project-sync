@@ -1,0 +1,18 @@
+source_server:
+  server_url: "example.tableau.com"
+  version: "3.11"
+  site_name: ""
+  pat_name: "pat_name"
+  pat_value: "pat_value"
+  top_level_project_id: ""
+
+target_server:
+  server_url: "example2.tableau.com"
+  version: "3.11"
+  site_name: ""
+  pat_name: "pat_name"
+  pat_value: "pat_value"
+
+files:
+  source_projects: "output/source_projects.json"
+  cleaned_projects: "output/cleaned_projects.json"
